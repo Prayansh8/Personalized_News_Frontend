@@ -1,0 +1,22 @@
+/* HomeStyles.css */
+.formControlWrapper {
+  margin-bottom: 20px;
+}
+
+.customInputLabel {
+  transform: translate(14px, 14px) scale(1);
+}
+
+.customInputLabel.shrink {
+  transform: translate(14px, -6px) scale(0.75);
+}
+/* Custom styles */
+.MuiFormControl-root {
+  width: 100%;
+}
+.MuiInputLabel-outlined {
+  transform: translate(14px, 14px) scale(1);
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(14px, -6px) scale(0.75);
+}

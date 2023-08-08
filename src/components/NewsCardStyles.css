@@ -1,0 +1,29 @@
+/* NewsCardStyles.css */
+.newsCard {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.newsCardTitle {
+  font-size: 1.2rem;
+}
+
+.newsCardDescription {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.newsCardDate {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.newsCardContent {
+  margin-top: 1rem;
+}
+
+.saveButton {
+  margin-top: 0.5rem;
+}
