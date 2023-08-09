@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <CssBaseline />
         <Header />
-        <div style={{ width: "70%", margin:"auto" }}>
+        <div style={{ width: "70%", margin: "auto" }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/register" element={<Register />} />

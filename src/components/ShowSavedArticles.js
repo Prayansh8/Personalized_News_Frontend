@@ -44,7 +44,7 @@ const ShowSavedArticles = () => {
 
   return (
     <>
-      <div>
+      <div style={{margin: "2vh auto"}}>
         <h1>Saved Articles</h1>
         {articleData.length > 0 ? (
           <Grid container spacing={3}>

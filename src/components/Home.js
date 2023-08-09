@@ -17,7 +17,7 @@ const Home = () => {
       : newsData.filter((item) => item.category === selectedCategory);
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" style={{margin: "3vh auto"}}>
       <FormControl sx={{ marginY: 4 }}>
         <label>Choose Your Interest:</label>
         <Select value={selectedCategory} onChange={handleChange}>
