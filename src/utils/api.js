@@ -2,7 +2,8 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const BASE_URL =
-  "https://personalized-news-backend-7kol-5bt25a15h-prayansh8.vercel.app/"; // Update with your backend URL
+// "http://localhost:5000"
+  "https://personalized-news-backend.onrender.com"; // Update with your backend URL
 
 export const registerUser = async (userData) => {
   try {

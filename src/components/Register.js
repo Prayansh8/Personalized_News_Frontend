@@ -17,7 +17,7 @@ function Register() {
       navigate("/login");
     } catch (error) {
       console.error(error); // Handle error here
-      toast.error("User Not Be Ragester, Please Try Again!");
+      toast.error("Ragester Failed, Try Again!");
     }
   };
 
